@@ -1,0 +1,20 @@
+
+.new-user{
+    color: #ffff;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a ;
+}
+.new-user:hover{
+    background-color: #1e8808;
+}
+.bottom-part{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}

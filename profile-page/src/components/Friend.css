@@ -1,0 +1,22 @@
+.image-box{
+    padding-top: 5px;
+    margin-left: 32%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.imagesize{
+    display: block;
+    height: 45px !important;
+    width: 45px !important;
+    border: 3px solid #fff;
+    margin-bottom: -100px;
+    border-radius: 100px;
+}
+.imagesize + .imagesize {
+    position: relative;
+    margin-left: -4px; 
+  }
+.imagesize:hover{
+    border: 5px solid #fff;
+}
